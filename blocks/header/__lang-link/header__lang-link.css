@@ -8,12 +8,9 @@
   font-family: Inter;
   color: white;
   text-decoration-line: underline;
-  text-align: end;
   font-size: 24px;
   line-height: 28px;
-/* identical to box height, or 117% */
-
-text-align: right;
+  text-align: right;
 }
 @media (max-width: 320px) {
   .header__lang-link {
