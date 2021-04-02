@@ -1,0 +1,29 @@
+.lead__title {
+  /*border: 1px solid springgreen;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 13.4%;
+  max-width: 100%;
+  justify-content: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100px;
+  /* or 104% */
+  text-align: center;
+  color: #FFFFFF;
+}
+@media (max-width: 768px) {
+  .lead__title {
+    margin: 0px 24px;
+  }
+}
+@media (max-width: 320px) {
+  .lead__title {
+    margin: 0px 16px;
+    font-size: 40px;
+    line-height: 44px;
+  }
+}

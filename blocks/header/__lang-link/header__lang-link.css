@@ -1,0 +1,25 @@
+.header__lang-link:nth-child(2) {
+  margin-left: 18px;
+  text-decoration: none;
+
+}
+.header__lang-link {
+  max-width: 100%;
+  font-family: Inter;
+  color: white;
+  text-decoration-line: underline;
+  text-align: end;
+  font-size: 24px;
+  line-height: 28px;
+/* identical to box height, or 117% */
+
+text-align: right;
+}
+@media (max-width: 320px) {
+  .header__lang-link {
+    padding-top: 14px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

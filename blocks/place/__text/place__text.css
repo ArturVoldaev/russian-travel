@@ -1,0 +1,31 @@
+.place__text:nth-child(5) {
+  grid-template-rows: 1fr;
+}
+.place__text {
+  grid-area: place__text;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.15fr;
+  gap: 20px 0px;
+  grid-template-areas:
+    "place__text_location_top"
+    "place__text_location_bottom";
+  align-content: flex-start;
+  align-items: flex-start;
+
+
+
+
+
+
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+
+
+  color: #FFFFFF;
+
+}

@@ -1,0 +1,23 @@
+.logo {
+  margin: 0px 931px 0px 0px;
+  max-width: 100%;
+}
+@media (max-width: 1024px) {
+  .logo {
+    margin: 0px 675px 0px 0px;
+    max-width: calc(100% - (48px*2));
+  }
+}
+@media (max-width: 768px) {
+  .logo {
+    margin: 0px 467px 0px 0px;
+    max-width: calc(100% - (24px*2));
+}
+  }
+@media (max-width: 320px) {
+  .logo {
+    margin: 0px 84px 0px 0px;
+    max-width: calc(100% - 146px);
+}
+  }
+

@@ -1,0 +1,10 @@
+.lead__image {
+  /*border: 1px solid springgreen;*/
+  margin: 0px auto 0px;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  .lead__image {
+    margin: 0px;
+  }
+}
