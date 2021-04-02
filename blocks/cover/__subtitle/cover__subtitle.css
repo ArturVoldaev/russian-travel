@@ -22,11 +22,15 @@
     margin: 0px 204px 0px;
   }
 }
+@media (max-width: 625px){
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
 @media (max-width: 320px){
   .cover__subtitle {
     max-width: calc(100% - (16px*2));
     margin: 0px 16px 0px;
-    font-size: 14px;
-    line-height: 16px;
   }
 }

@@ -9,7 +9,6 @@
   line-height: 29px;
   /* or 26px */
   color: #FFFFFF;
-  overflow-x: hidden;
 }
 @media (max-width: 768px) {
   .text__par {

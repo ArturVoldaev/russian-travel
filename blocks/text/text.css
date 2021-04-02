@@ -3,7 +3,6 @@
   grid-template-rows: min-content;
   gap: 26px 0px;
   align-content: flex-start;
-  overflow-x: hidden;
 }
 @media (max-width: 320px) {
   .text {
