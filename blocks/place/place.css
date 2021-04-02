@@ -19,7 +19,7 @@
     gap: 48px 28px;
   }
 }
-@media (max-width: 450px) {
+@media (max-width: 600px) {
   .place {
     grid-template-columns: auto;
     grid-template-rows: repeat(4, min-content);
