@@ -4,6 +4,8 @@
 @import url(../vendor/fonts/inter.css);
 /*подключение блока page*/
 @import url(../blocks/page/page.css);
+/*подключение блока body*/
+@import url(../blocks/body/body.css);
 /*подключение блока header*/
 @import url(../blocks/header/header.css);
 @import url(../blocks/logo/logo.css);
