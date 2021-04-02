@@ -23,6 +23,7 @@
 @import url(../blocks/intro/__span-accent/intro__span-accent.css);
 /*подключение блока photo*/
 @import url(../blocks/photo/photo.css);
+@import url(../blocks/photo/__img/photo__img.css);
 @import url(../blocks/photo/__item/photo__item.css);
 /*подключение блока places*/
 @import url(../blocks/places/places.css);
