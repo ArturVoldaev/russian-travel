@@ -10,17 +10,15 @@
 }
 @media (max-width: 768px) {
   .header {
-    padding-top: 28px;
     padding-bottom: 48px;
     max-width: calc(100% - (24px*2));
     margin: 0px 24px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 720px) {
   .header {
     padding-top: 16px;
     max-width: calc(100% - (16px*2));
     margin: 0px 16px;
-    padding-bottom: 16px;
   }
 }

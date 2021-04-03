@@ -3,3 +3,8 @@
   align-self: flex-end;
   gap: 12px 0px;
 }
+@media (max-width: 720px) {
+  .website {
+    margin-left: 16px;
+  }
+}

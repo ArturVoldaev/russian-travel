@@ -14,8 +14,4 @@
   justify-self: flex-start;
   opacity: 1;
 }
-@media (max-width: 320px) {
-  .website__link {
-    margin: 0px 16px;
-  }
-}
+

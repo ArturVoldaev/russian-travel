@@ -1,5 +1,5 @@
 .place__title {
-  border: 1px solid salmon;
+  /*border: 1px solid salmon;*/
   max-width: 100%;
   align-self: flex-end;
   box-sizing: content-box;
@@ -23,7 +23,7 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
-    margin: 0 calc((100% - 288px)/2);
-    justify-self: center;
+    margin: 0 16px;
+    /*justify-self: center;*/
   }
 }

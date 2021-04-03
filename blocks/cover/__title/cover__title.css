@@ -1,5 +1,5 @@
 .cover__title {
-  border: 1px solid salmon;
+  /*border: 1px solid salmon;*/
   max-width: 100%;
   margin: 0px calc((100% - 560px)/2) 32px;
   font-family: "Inter", Arial, sans-serif;

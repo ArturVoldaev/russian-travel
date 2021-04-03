@@ -1,5 +1,5 @@
 .lead__title {
-  border: 1px solid salmon;
+  /*border: 1px solid salmon;*/
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -21,12 +21,8 @@
 }
 @media (max-width: 720px) {
   .lead__title {
+    margin: 0px calc((100% - 288px)/2);
     font-size: 40px;
     line-height: 44px;
-  }
-}
-@media (max-width: 320px) {
-  .lead__title {
-    margin: 0px 16px;
   }
 }

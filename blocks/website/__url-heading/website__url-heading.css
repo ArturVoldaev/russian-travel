@@ -9,8 +9,4 @@
   color: #AAAAAA;
   text-transform: uppercase;
 }
-@media (max-width: 320px) {
-  .website__url-heading {
-    margin: 0px 16px;
-  }
-}
+

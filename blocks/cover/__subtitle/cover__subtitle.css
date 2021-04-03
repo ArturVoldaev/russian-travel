@@ -1,5 +1,5 @@
 .cover__subtitle {
-  border: 1px solid salmon;
+  /*border: 1px solid salmon;*/
   max-width: 100%;
   margin: 0px calc((100% - 360px)/2) 0px;
   font-family: "Inter", Arial, sans-serif;
