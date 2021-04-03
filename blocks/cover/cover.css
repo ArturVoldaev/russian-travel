@@ -1,15 +1,12 @@
 .cover {
-  /*border: 1px solid salmon;*/
   display: flex;
+  margin: 0px calc((100% - 1184px)/2);
   padding: 92px 0px;
-  margin: 0px 48px;
   max-width: 100%;
-  /*min-height: calc(100% - (6001px + 134px));*/
 }
-@media (max-width: 1024px) {
+@media (max-width: 1184px) {
   .cover {
     margin: 0px;
-    max-width: 100%;
   }
 }
 @media (max-width: 768px) {

@@ -1,14 +1,12 @@
 .intro__list {
-  /*border: 1px solid springgreen;*/
   list-style-type:none;
   padding: 0px;
   margin-top: 33px;
-  font-family: Inter;
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
   line-height: 18px;
-  /* or 150% */
    color: #FFFFFF;
 }
 @media (max-width: 320px) {

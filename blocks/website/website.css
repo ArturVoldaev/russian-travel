@@ -1,6 +1,5 @@
 .website {
   display: grid;
   align-self: flex-end;
-  /*border: 1px solid salmon;*/
   gap: 12px 0px;
 }

@@ -1,18 +1,9 @@
 .intro {
-  /*border: 1px solid salmon;*/
   padding-top: 0px;
   margin:0px 422px 0px 148px;
   max-width: 100%;
 }
-/*@media (max-width: 1280px) {
-  .intro {
-    margin:0px 286px 0px 48px;
-    max-width:calc(100% - (48px + 286px));
-    max-height: calc(100% - (5707px + 1280px));
-  }
-}
-*/
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .intro {
     margin:0px 286px 0px 48px;
   }
@@ -22,7 +13,7 @@
     margin:0px 24px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 720px) {
   .intro {
     margin:0px 16px;
   }

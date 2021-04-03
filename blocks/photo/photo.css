@@ -1,18 +1,23 @@
 .photo {
   padding: 92px 0px;
-  margin: 0 48px;
+  margin: 0 calc((100% - 1184px)/2);
   max-width: 100%;
   /*justify-content: center;*/
 }
-@media (max-width: 768px) {
+@media (max-width: 1185px) {
   .photo {
-    padding: 88px 0px;
-    margin: 0 24px;
+   margin: 0 calc((100% - 928px)/2);
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 928px) {
+  .photo {
+    padding: 88px 0px;
+    margin: 0 calc((100% - 720px)/2);
+  }
+}
+@media (max-width: 720px) {
   .photo {
     padding: 64px 0px;
-    margin: 0 16px;
+    margin: 0 calc((100% - 288px)/2);
   }
 }
