@@ -1,9 +1,12 @@
 .header__lang-link:hover {
   opacity: 0.8;
 }
+.header__lang-link:nth-child(2) {
+  margin-left: 18px;
+}
 .header__lang-link {
   max-width: 100%;
-  margin: 18px 0 16px;
+  margin: 18px 0px 6px;
   font-family: "Inter", Arial, sans-serif;
   color: white;
   text-decoration-line: none;
@@ -14,9 +17,7 @@
 }
 @media (max-width: 320px) {
   .header__lang-link {
-    margin: 0;
-    padding-top: 14px;
-    padding-bottom: 8px;
+    margin: 14px 0px 8px;
     font-size: 18px;
     line-height: 20px;
   }

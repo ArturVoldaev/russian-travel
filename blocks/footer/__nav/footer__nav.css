@@ -1,15 +1,15 @@
 .footer__nav {
   /*border: 1px salmon solid;*/
   display: grid;
-  grid-template-columns: max-content max-content max-content max-content max-content 1fr;
+  grid-template-columns: max-content max-content max-content max-content max-content;
   gap: 0px 18px;
   justify-items: start;
   justify-content: flex-start;
 }
-@media (max-width: 650px) {
+@media (max-width: 720px) {
   .footer__nav {
     grid-template-columns: none;
-    grid-template-rows: max-content max-content max-content max-content max-content 1fr;
+    grid-template-rows: max-content max-content max-content max-content max-content;
     gap: 32px 0px;
     align-content: space-between;
   }

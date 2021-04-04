@@ -1,4 +1,5 @@
 .footer__author {
+  display: flex;
   margin: 0px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -6,7 +7,7 @@
   font-size: 16px;
   line-height: 18px;
   color: #FFFFFF;
-  justify-self: flex-end;
+  align-items: center;
 }
 @media (max-width: 768px) {
   .footer__author {
@@ -14,9 +15,10 @@
     line-height: 16px;
   }
 }
-@media (max-width: 320px) {
+@media (max-width: 720px) {
   .footer__author {
+    margin-top: 48px;
     line-height: 14px;
-    justify-self: start;
   }
 }
+
