@@ -19,4 +19,4 @@
 В будущем проекта планируется дабавить несколько виджетов и подключение нескольких скриптов.
 
 **Ссылка на проект**
-https://fishka9044.github.io/russian-travel/
+[https://fishka9044.github.io/russian-travel/](https://arturvoldaev.github.io/russian-travel/)https://arturvoldaev.github.io/russian-travel/
